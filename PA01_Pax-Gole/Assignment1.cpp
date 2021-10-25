@@ -14,6 +14,9 @@
 #include <string>
 using namespace std;
 
+// making a comment to be read
+// as a change in github
+
 int validProctocol(const string & input, string &output);
 int validDomain(const string & input, string &output, bool & checkPort);
 int validPort(const string & input, string &output);
