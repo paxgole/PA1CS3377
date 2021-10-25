@@ -1,0 +1,16 @@
+Assignment1.cpp:128:16: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for (const auto& currProt : acceptableProtocols) // for each possible protocol
+               ^
+Assignment1.cpp:128:31: warning: range-based for loop is a C++11 extension [-Wc++11-extensions]
+    for (const auto& currProt : acceptableProtocols) // for each possible protocol
+                              ^
+Assignment1.cpp:183:17: warning: range-based for loop is a C++11 extension [-Wc++11-extensions]
+    for (char i : tempDomain) // check alnum of string
+                ^
+Assignment1.cpp:196:16: warning: 'auto' type specifier is a C++11 extension [-Wc++11-extensions]
+    for (const auto& currHost : acceptableHosts)
+               ^
+Assignment1.cpp:196:31: warning: range-based for loop is a C++11 extension [-Wc++11-extensions]
+    for (const auto& currHost : acceptableHosts)
+                              ^
+5 warnings generated.

@@ -1,0 +1,45 @@
+Script started on Wed Oct  6 15:44:58 2021
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hclarus/Users/maci7$ cd Desktop/sorter/College/Fall2021/CS33&&[K[K77/Assignments/PA01_Pax-Gole/; touch errFile; ls-[K -l
+total 56
+-rw-r--r--  1 maci7  staff   8861 Oct  6 15:25 Assignment1.cpp
+-rw-r--r--@ 1 maci7  staff  13845 Sep 22 23:56 How to Use.docx
+-rw-r--r--  1 maci7  staff      0 Oct  6 15:45 errFile
+clarus/Users/maci7/Desktop/sorter/College/Fall2021/CS3377/Assignments/PA01_Pax-Gole$ echo "Errorfile exists to suppress minor warnings, not real errors"
+Errorfile exists to suppress minor warnings, not real errors
+clarus/Users/maci7/Desktop/sorter/College/Fall2021/CS3377/Assignments/PA01_Pax-Gole$ g++ -o output Assignment1.cpp 2> errFile ; ./outp[K[K[K[K[K[Kecho "good url #1" ; ./output
+good url #1
+Enter a URL for parsing: https://cs.utdallas.edu:80/directory/faculty/people.html?name=Robert
+Protocol:       https
+Domain:         cs.utdallas.edu
+Port:           80
+Filepath:       /directory/faculty/people.html
+Parameters:     name=Robert
+clarus/Users/maci7/Desktop/sorter/College/Fall2021/CS3377/Assignments/PA01_Pax-Gole$ echo "good url #2" ; ./output
+good url #2
+Enter a URL for parsing: http://cs.utdallas.edu/directory/faculty/people.html
+Protocol:       http
+Domain:         cs.utdallas.edu
+Filepath:       /directory/faculty/people.html
+clarus/Users/maci7/Desktop/sorter/College/Fall2021/CS3377/Assignments/PA01_Pax-Gole$ echo "bad url #1, shoudl[K[Kld gie[Kve protocl[Kol and host errors, non fatal" ; ./output
+bad url #1, should give protocol and host errors, non fatal
+Enter a URL for parsing: httpz://cs.utdallas.euu:80/directory/faculty/people.html?name=Robert
+Protocol:       httpz is an invalid protocol - it must be "http","https", or "ftp"
+Domain:         euuis an invalid host - it must be "com", "net", "edu", "biz", or "gov"
+Port:           80
+Filepath:       /directory/faculty/people.html
+Parameters:     name=Robert
+clarus/Users/maci7/Desktop/sorter/College/Fall2021/CS3377/Assignments/PA01_Pax-Gole$ echo "bad url #2, fatal u[Kunable to parse further error" ; ./output
+bad url #2, fatal unable to parse further error
+Enter a URL for parsing: https:/cs.utdallas.edu:80/directory/faculty/people.html?name=Robert
+Protocol format error, unable to parse further
+clarus/Users/maci7/Desktop/sorter/College/Fall2021/CS3377/Assignments/PA01_Pax-Gole$ echo "all urs[Kls and results in comments of cpp file"
+all urls and results in comments of cpp file
+clarus/Users/maci7/Desktop/sorter/College/Fall2021/CS3377/Assignments/PA01_Pax-Gole$ 
+clarus/Users/maci7/Desktop/sorter/College/Fall2021/CS3377/Assignments/PA01_Pax-Gole$ exit
+exit
+
+Script done on Wed Oct  6 15:48:12 2021
